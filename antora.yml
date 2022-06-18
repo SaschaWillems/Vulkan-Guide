@@ -1,7 +1,7 @@
 name: vulkan-guide
 title: Vulkan Guide
 version: 1.0.0
-start_page: ROOT:README.adoc
+start_page: README.adoc
 asciidoc:
   attributes:
     source-language: asciidoc@
