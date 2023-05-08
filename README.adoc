@@ -217,6 +217,11 @@ The Vulkan Guide can be built as a single page using `asciidoctor guide.adoc`
 
 // include::{chapters}hlsl.adoc[]
 
+== xref:{chapters}development_environment.adoc[Setting up the development environment]
+
+// include::{chapters}development_environment.adoc[]
+
+
 = When and Why to use Extensions
 
 [NOTE]
