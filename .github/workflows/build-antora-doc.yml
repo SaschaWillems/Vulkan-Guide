@@ -51,7 +51,7 @@ jobs:
       - name: "Copy UI bundle"
         run: cp ./antora-ui-khronos/build/ui-bundle.zip ./
 
-      - name: "Build tutorial"
+      - name: "Build guide"
         run: |
           cd antora
           make
