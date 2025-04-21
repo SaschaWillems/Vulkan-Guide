@@ -62,8 +62,7 @@ jobs:
 
       - name: "Build guide"
         run: |
-          cd antora
-          make
+          antora/make
 
       - name: "Build Antora documentation"
         working-directory: ./
