@@ -30,11 +30,20 @@ jobs:
           path: ./antora-ui-khronos
           ref: main
 
+      - name: "Checkout Vulkan-Site"
+        uses: actions/checkout@v3
+        with:
+          repository: KhronosGroup/Vulkan-Site
+          path: ./Vulkan-Site
+          ref: main
+          submodules: recursive
+
       - name: "Install npm"
         uses: actions/setup-node@v4
         with:
           node-version: 'latest'
           cache: 'npm'
+          cache-dependency-path: ./Vulkan-Site/docs-site/package-lock.json
 
       - name: "Install dependencies"
         run: |
